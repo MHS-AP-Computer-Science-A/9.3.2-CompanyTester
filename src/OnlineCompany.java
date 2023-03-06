@@ -7,7 +7,6 @@ public class OnlineCompany extends Company{
     }
 
     //Return the website address
-
     public String address(){
         
     }
