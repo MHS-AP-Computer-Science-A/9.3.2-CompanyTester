@@ -1,25 +1,11 @@
-public class OnlineCompany extends Company{
+public class OnlineCompany extends Company {
 
     private String webAddress;
 
-    public OnlineCompany(String name, String webAddress){
-        
+    public OnlineCompany(String name, String webAddress) {
+        super(name);
+       
     }
 
-    //Return the website address
-    public String address(){
-        
-    }
 
-    /**
-    * Remember To get name from superclass, use super.getName()
-    * 
-    * Example Output:
-    * CodeHS
-    * www.codehs.com
-    */
-    
-    public String toString(){
-        
-    }
 }
